@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radio Player</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="search-container">
+      <label class="search-label" for="search">Search: </label>
+      <input
+        class="search-input"
+        type="text"
+        id="search"
+        oninput="handleSearch()"
+      />
+    </div>
+
+    <script src="radioplayer.js"></script>
+    <div id="channels"></div>
+  </body>
+</html>
